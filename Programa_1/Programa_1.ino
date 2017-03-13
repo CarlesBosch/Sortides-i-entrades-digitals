@@ -20,14 +20,14 @@ int LED12 = 12;                       // LED12 es el pin digital 12
 void setup() 
 {                                     // S'executa un sol cop
 
-  pinMode(LED5, OUTPUT);              // configura el pin 5 com a sortida
-  pinMode(LED6, OUTPUT);              // configura el pin 6 com a sortida
-  pinMode(LED7, OUTPUT);              // configura el pin 7 com a sortida
-  pinMode(LED8, OUTPUT);              // configura el pin 8 com a sortida
-  pinMode(LED9, OUTPUT);              // configura el pin 9 com a sortida
-  pinMode(LED10, OUTPUT);             // configura el pin 10 com a sortida
-  pinMode(LED11, OUTPUT);             // configura el pin 11 com a sortida
-  pinMode(LED12, OUTPUT);             // configura el pin 12 com a sortida
+  pinMode(LED5, OUTPUT);              // Configura el pin 5 com a sortida
+  pinMode(LED6, OUTPUT);              // Configura el pin 6 com a sortida
+  pinMode(LED7, OUTPUT);              // Configura el pin 7 com a sortida
+  pinMode(LED8, OUTPUT);              // Configura el pin 8 com a sortida
+  pinMode(LED9, OUTPUT);              // Configura el pin 9 com a sortida
+  pinMode(LED10, OUTPUT);             // Configura el pin 10 com a sortida
+  pinMode(LED11, OUTPUT);             // Configura el pin 11 com a sortida
+  pinMode(LED12, OUTPUT);             // Configura el pin 12 com a sortida
 
 }
 
@@ -35,27 +35,27 @@ void setup()
 void loop() 
 {                                     // S'executa repetidament 
   
-  digitalWrite(LED5, HIGH);           // activa el LED3
-  digitalWrite(LED6, HIGH);           // activa el LED3 
-  digitalWrite(LED7, HIGH);           // activa el LED3 
-  digitalWrite(LED8, HIGH);           // activa el LED3 
-  digitalWrite(LED9, HIGH);           // activa el LED3 
-  digitalWrite(LED10, HIGH);          // activa el LED3 
-  digitalWrite(LED11, HIGH);          // activa el LED3 
-  digitalWrite(LED12, HIGH);          // activa el LED3  
+  digitalWrite(LED5, HIGH);           // Activa el LED 5
+  digitalWrite(LED6, HIGH);           // Activa el LED 6
+  digitalWrite(LED7, HIGH);           // Activa el LED 7
+  digitalWrite(LED8, HIGH);           // Activa el LED 8
+  digitalWrite(LED9, HIGH);           // Activa el LED 9
+  digitalWrite(LED10, HIGH);          // Activa el LED 10
+  digitalWrite(LED11, HIGH);          // Activa el LED 11
+  digitalWrite(LED12, HIGH);          // Activa el LED 12
   
-  delay(1000);                        // espera medio segundo
+  delay(1000);                        // Espera un segon
   
-  digitalWrite(LED5, LOW);            // desactiva el LED3
-  digitalWrite(LED6, LOW);            // desactiva el LED3
-  digitalWrite(LED7, LOW);            // desactiva el LED3
-  digitalWrite(LED8, LOW);            // desactiva el LED3
-  digitalWrite(LED9, LOW);            // desactiva el LED3
-  digitalWrite(LED10, LOW);           // desactiva el LED3
-  digitalWrite(LED11, LOW);           // desactiva el LED3
-  digitalWrite(LED12, LOW);           // desactiva el LED3
+  digitalWrite(LED5, LOW);            // Desactiva el LED 5
+  digitalWrite(LED6, LOW);            // Desactiva el LED 6
+  digitalWrite(LED7, LOW);            // Desactiva el LED 7
+  digitalWrite(LED8, LOW);            // Desactiva el LED 8
+  digitalWrite(LED9, LOW);            // Desactiva el LED 9
+  digitalWrite(LED10, LOW);           // Desactiva el LED 10
+  digitalWrite(LED11, LOW);           // Desactiva el LED 11
+  digitalWrite(LED12, LOW);           // Desactiva el LED 12
   
-  delay(1000);                        // espera medio segundo
+  delay(1000);                        // Espera un segon
   
 }
 
